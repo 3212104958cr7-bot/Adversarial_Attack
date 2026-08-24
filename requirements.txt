@@ -1,0 +1,11 @@
+torch>=1.10
+torchvision>=0.11
+numpy
+opencv-python-headless
+scikit-learn
+matplotlib
+pillow
+
+# optional: only needed if you run PredRNet's own models/predrnet/main.py
+# (this project's train.py / attack / defense scripts don't use it)
+# thop
